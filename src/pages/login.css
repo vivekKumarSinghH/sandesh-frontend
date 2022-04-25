@@ -1,0 +1,61 @@
+.loginpage {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  /* background-image: url("https://img2.goodfon.com/wallpaper/nbig/5/82/android-tekstura-linii-fon.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(63, 73, 251);
+  /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+  /* background-image: linear-gradient(to right, #870000, #190a05); */
+  background-color: #0d0d30;
+}
+
+.formdiv {
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 60px 40px;
+  /* background-image: linear-gradient(to right, #870000, #190a05); */
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+  /* background-image: linear-gradient(25deg, #d64c7f, #ee4758 50%); */
+  background-color: #28c073;
+
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+}
+.formdiv > input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: transparent;
+}
+.formdiv > button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #0d0d30;
+  color: white;
+}
+
+.brand {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+.regi {
+  text-decoration: none;
+  color: white;
+}
